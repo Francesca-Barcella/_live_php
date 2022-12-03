@@ -19,5 +19,11 @@ $greetings = "Ciao $name $lastName";
     <!-- in questo modo poi dobbiamo aggiungere il valore nella stringa dell'url per stamparla in pagina -->
     <!-- http://localhost/PHP/_live_php/1-intro/?name=Francesca&lastname=Barcella -->
     <h1><?php echo $greetings ?></h1>
+
+    <form action="nome_file.php" method="Get">
+        <input type="text" name="nome">
+        <button type="submit">invia</button>
+    </form>
+
 </body>
 </html>

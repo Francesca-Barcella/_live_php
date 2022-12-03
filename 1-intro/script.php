@@ -3,6 +3,7 @@
 $name = $_GET['name'];
 $lastName = $_GET['lastname'];
 $greetings = "ciao $name $lastname";
+
 ?>
 
 <!DOCTYPE html>
