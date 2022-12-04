@@ -1,4 +1,4 @@
 <?php
 //STEP 1 - NON FUNZIONERA'
-$color = 'red';
+$color = 'red' . '<br>';
 $text = 'Ciao';

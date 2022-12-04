@@ -8,9 +8,7 @@
 
 //SOLUZIONE - COSTANTE MAGICA __DIR__ - da mettere sempre davanti all'include perchè va a prendere la cartella in cui si trova il file
 
-include __DIR__ . './partials/template/header.php';
-echo $color;
-echo $text;
+include __DIR__ . '/partials/template/header.php';
 
 ?>
 
